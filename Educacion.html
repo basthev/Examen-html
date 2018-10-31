@@ -5,7 +5,7 @@
     <meta charset="viewpor" content="width=device-width,user-scable=no">
     <meta name="author" content="Jesus Nuñez">
     <meta name="description" content="Curriculum en HTML5">
-    <title>Curriculum html</title>
+    <title>Educacion</title>
   </head>
   <body>
     <header>
@@ -92,21 +92,69 @@
       <h3>Fecha:29/10/2018</h3>
     </header>
     <nav>
-      <a href="#">Inicio</a>
-      <a href="Educacion.html">Educacion</a>
+      <a href="index.html">Inicio</a>
+      <a href="#">Educacion</a>
       <a href="Experiencia.html">Experiencia</a>
     </nav>
     <section>
-    <article class="Informacion personal">
-      <h2>Informacion personal</h2>
-       <img src="imagenes/informacion.jpg" titlle="informacion personal" height="300">
+      <h2>Educacion</h2>
+    <article class="Educacion">
+  <table border="1">
+  <thead>
+    <tr>
+      <td><strong>Año</strong></td>
+      <td><strong>Institucion</strong></td>
+      <td><strong>Lugar</strong></td>
+      <td><strong>¿Culmino?</strong></td>
+    </tr>
+  </thead>
+  <tbody>
+<tr>
+  <td>2016</td>
+  <td>Padre Claret</td>
+  <td>Maturin</td>
+  <td>Si</td>
+</tr>
+<tr>
+  <td>2017</td>
+  <td>Universidad de oriente</td>
+  <td>Ciudad Bolivar</td>
+  <td>No</td>
+</tr>
+  </tbody>
+  </table>
     </article>
-    <article class="Perfil">
-      <h2>Perfil</h2>
-      <p></p>
+    <article class="Agregar estudios">
+      <form class="Agregar estudios" action="index.html" method="post">
+        <fieldset>
+          <legend>Agregar estudios</legend>
+          <label for="Año"><strong>Año:</strong></label>
+           <select class="" name="Año">
+             <option value="">Año</option>
+             <option value="">2018</option>
+             <option value="">2017</option>
+             <option value="">2016</option>
+             <option value="">2015</option>
+             <option value="">2014</option>
+             <option value="">2013</option>
+             <option value="">2012</option>
+             <option value="">2011</option>
+             <option value="">2010</option>
+             <option value="">2009</option>
+           </select>
+           <br/>
+           <label for="Institucion"><strong>Institucion:</strong></label>
+           <input type="text" name="Institucion" placeholder="Institucion" required >
+           <br/>
+           <label for="name"><strong>Lugar:</strong></label>
+           <textarea name="name" rows="2" cols="40"></textarea>
+           <br/>
+           <input type="submit" name="Enviar" value="Enviar">
+        </fieldset>
+      </form>
     </article>
-  </section>
     <footer>
-<p><strong>Correo electronico:</strong>Jesusleonardo122@gmail.com <strong>Telefono:</strong>3213696956 <strong>Redes sociales:</strong> <em>Twitter</em> @jesusnunez <em>instragran:</em>jesus l <strong>Direccion:</strong> calle 24sur #11 40</p>
+      <p><strong>Correo electronico:</strong>Jesusleonardo122@gmail.com <strong>Telefono:</strong>3213696956 <strong>Redes sociales:</strong> <em>Twitter</em> @jesusnunez <em>instragran:</em>jesus l <strong>Direccion:</strong> calle 24sur #11 40</p>
     </footer>
+  </body>
 </html>
